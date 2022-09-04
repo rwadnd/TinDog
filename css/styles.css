@@ -1,0 +1,203 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 4% 10%;
+  overflow: hidden;
+}
+
+/* Title */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+#title .container-fluid {
+  height: 100vh;
+}
+
+#title h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-top: 30px;
+  margin-left: 90px;
+}
+
+  /* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: lighter;
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+
+
+
+/* Features */
+
+.feature-box {
+  margin: 60px 0;
+}
+
+#features h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.feature-box i {
+  color: #ef8172;
+  font-size: 300%;
+  margin: 15px;
+  transition: 0.5s;
+}
+
+
+
+.feature-box:hover i {
+  color: #ff4c68;
+}
+
+
+.feature p {
+  color: #8f8f8f;
+}
+
+span {
+  transition: 1s;
+  cursor: default;
+}
+
+span:hover {
+  color: #ff4c68;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  transition: 0.4s;
+}
+
+
+/* testimonial section */
+
+#testimonials h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+#testimonials .container-fluid {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-imgs {
+  border-radius: 100%;
+  margin: 20px;
+  width: 12%;
+}
+
+
+#press .container-fluid {
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 10px 50px;
+}
+
+/* Pricing */
+
+#pricing h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#pricing h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+
+.card {
+  margin: 8% 3%;
+  height: 420px;
+}
+
+
+/* CTA */
+
+
+#cta {
+  background-color: #ff4c68;
+}
+
+#cta h3 {
+  margin-top: 30px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+/* footer */
+
+#footer i {
+  font-size: 20px;
+  color: black;
+  margin: 10px 10px 10px;
+}
+
+
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/* Responsivness */
+
+@media (max-width: 1025px) {
+  .title-img {
+    transform: rotate(0deg);
+    margin: 20px 0 0 0;
+    }
+    #title {
+      height: auto;
+    }
+    #title .container-fluid {
+      overflow: visible;
+      height: auto;
+      text-align: center;
+    }
+}
